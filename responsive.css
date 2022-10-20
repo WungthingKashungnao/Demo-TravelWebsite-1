@@ -1,0 +1,86 @@
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .carousel-caption{
+        text-align: center;
+        
+    }
+    .carousel-caption h5{
+        font-weight: bold;
+        font-size: 2em;
+        font-family: 'Poppins',sans-serif;
+    }
+    .carousel-caption h2{
+        font-weight: 800px;
+        font-size: 4em;
+        font-family: 'Poppins',sans-serif;
+    }
+    
+    #menu ul{
+        background: rgba(0, 0, 0, 0.9);
+        border-radius: 40px;
+    }
+    /* about section */
+    .about-inner-right h3{
+        font-size: 2em;
+        margin: 2em 0;
+       }
+}
+@media only screen and (min-width: 361px) and (max-width: 480px){
+    #menu ul{
+        background: rgba(0, 0, 0, 0.9);
+        border-radius: 40px;
+    }
+    .navbar-brand h1{
+        font-family: 'Allura', cursive;
+        font-size: 2.5em;
+    }
+    .carousel-caption{
+        text-align: center;
+        
+    }
+    .carousel-caption h5{
+        font-weight: 200;
+        font-size: 1.5em;
+        font-family: 'Poppins',sans-serif;
+    }
+    .carousel-caption h2{
+        /* font-weight: 800px; */
+        font-weight: bold;
+        font-size: 2em;
+        font-family: 'Poppins',sans-serif;
+    }
+    /* about section */
+    .about-inner-right h3{
+        font-size: 2em;
+        margin: 2em 0;
+       }
+}
+@media only screen and (min-width: 0px) and (max-width: 360px){
+    #menu ul{
+        background: rgba(0, 0, 0, 0.9);
+        border-radius: 40px;
+    }
+    .navbar-brand h1{
+        font-family: 'Allura', cursive;
+        font-size: 2.4em;
+    }
+    .carousel-caption{
+        text-align: center;
+        
+    }
+    .carousel-caption h5{
+        font-weight: 200;
+        font-size: 1.5em;
+        font-family: 'Poppins',sans-serif;
+    }
+    .carousel-caption h2{
+        /* font-weight: 800px; */
+        font-weight: bold;
+        font-size: 2em;
+        font-family: 'Poppins',sans-serif;
+    }
+    /* about section */
+    .about-inner-right h3{
+        font-size: 2em;
+        margin: 2em 0;
+       }
+}

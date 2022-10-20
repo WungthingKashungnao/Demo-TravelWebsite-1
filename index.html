@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap project 2</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="responsive.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Allura&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    </head>
+    <body>
+        <!-- Modal start -->
+        <div class="modal fade" id="booknow" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Book an adventure now!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="">Email</label>
+                            <input type="email" name="" class="form-control" placeholder="Enter your email id">
+                            <label for="">Phone no</label>
+                            <input type="number" name="" class="form-control" placeholder="Enter your phone number">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+            </div>
+        </div>
+  <!-- modal end -->
+        <!-- header sectioin start -->
+        <header id="home">
+            <div class="container-fluid menu fixed-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <!-- navigation bar -->
+                            <nav class="navbar navbar-expand-lg navbar-dark">
+                                <!-- logo of brand -->
+                                <a class="navbar-brand">
+                                    <h1>Wungthing</h1>
+                                </a>
+                                <!-- hambuger menu for mobile devices -->
+                                <button type="button" class="navbar-toggler" data-target="#menu" data-toggle="collapse">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <!-- navbar menu items -->
+                                <div class="collapse navbar-collapse justify-content-end" id="menu">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item">
+                                            <a href="#home" class="nav-link">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#about" class="nav-link">About</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#serivces" class="nav-link">Services</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#contact" class="nav-link">Contact</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" data-target="#booknow" data-toggle="modal" class="nav-link">Book Now</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- caroulsel start -->
+            <div class="slider">
+                <div id="slider" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#slider" data-slide-to="0" class="active"></li>
+                      <li data-target="#slider" data-slide-to="1"></li>
+                      <li data-target="#slider" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" style="background: url('img/slider1.jpg') center; background-size: cover; height: 100vh;">
+                        <div class="carousel-item-inner">
+                            <div class="carousel-caption d-md-block">
+                                <h5>DISCOVER THE WORLD</h5>
+                                <h2>NEW ADVENTURE</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate minus a saepe itaque id corpori <br>
+                                magni nesciunt minima ipsa perspiciatis explicabo, commodi nobis, cum cupiditate? Maxime repellendus esse fuga exercitationem.</p>
+                                <a href="" class="text-uppercase header-btn">DISCOVER NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                      <div class="carousel-item" style="background: url('img/slider2.jpg') center; background-size: cover; height: 100vh;">
+                        <div class="carousel-item-inner">
+                            <div class="carousel-caption d-md-block">
+                                <h5>DISCOVER THE WORLD</h5>
+                                <h2>NEW TRIP</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate minus a saepe itaque id corpori <br>
+                                magni nesciunt minima ipsa perspiciatis explicabo, commodi nobis, cum cupiditate? Maxime repellendus esse fuga exercitationem.</p>
+                                <a href="" class="text-uppercase header-btn">DISCOVER NOW</a>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item" style="background: url('img/slider3.jpg') center; background-size: cover; height: 100vh;">
+                        <div class="carousel-item-inner">
+                            <div class="carousel-caption  d-md-block">
+                                <h5>DISCOVER THE WORLD</h5>
+                                <h2>NEW EXPERIENCE</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate minus a saepe itaque id corpori <br>
+                                magni nesciunt minima ipsa perspiciatis explicabo, commodi nobis, cum cupiditate? Maxime repellendus esse fuga exercitationem.</p>
+                                <a href="" class="text-uppercase header-btn">DISCOVER NOW</a>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+            </div>
+            <!-- carousel end -->
+        </header>
+        <!-- header sectioin end -->
+        <!-- about section start -->
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-lg-12">
+                        <h1>Why Choose Us Your TRAVEL AGENT</h1>
+                        <p>Who are in extremely love with eco friendly system.</p>
+                    </div>
+                </div>
+                <div class="row about-inner">
+                    <div class="col-lg-6">
+                        <img src="img/about-img.jpg" alt="about image" class="img-fluid">
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-inner-right">
+                            <h3>We Realize that <br>
+                                there are reduced <br>
+                                Wastage Stand out
+                            </h3>
+                            <p>
+                                inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards – especially in the workplace. That’s why it’s crucial that, as women.
+                            </p>
+    
+                            <p>
+                                inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards – especially in the workplace. That’s why it’s crucial that, as women. inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards – especially in the workplace. That’s why it’s crucial that, as women
+                            </p>
+                            <p>
+                                inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards – especially in the workplace. That’s why it’s crucial that, as women.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about section end -->
+        <!-- feature section start -->
+        <section class="features" id="serivces">
+            <div class="contaier">
+                <div class="row text-center">
+                    <div class="col-lg-12">
+                        <h1>Some Features that Made us Unique</h1>
+                        <p>Who are in extremely love with eco friendly system.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="features-section-item">
+                            <h4><i class="bi bi-file-person"></i>Expert Technicians</h4>
+                            <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="features-section-item">
+                            <h4><i class="bi bi-patch-check-fill"></i>Professional Service</h4>
+                            <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="features-section-item">
+                            <h4><i class="bi bi-telephone"></i>Great Support</h4>
+                            <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="features-section-item">
+                            <h4><i class="bi bi-airplane"></i></i>Technical Skills</h4>
+                            <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="features-section-item">
+                            <h4><i class="bi bi-gem"></i>Highly Recomended</h4>
+                            <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="features-section-item">
+                            <h4><i class="bi bi-send-plus"></i>Positive Reviews</h4>
+                            <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- feature section end -->
+
+        <!-- contact section start -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-lg-12">
+                        <h1>If you need, Just drop us a line</h1>
+                        <p>Who are in extremely love with eco friendly system.</p>
+                    </div>
+                </div>
+
+                <form action="">
+                    <div class="row form-outer">
+                        <div class="col-lg-6 form-group">
+                            <input type="text" placeholder="Enter your name" name="" class="form-control">
+                            <input type="email" placeholder="Enter your email" name="" class="form-control">
+                            <input type="text" placeholder="Enter the subject" name="" class="form-control">
+                        </div>
+                        <div class="col-lg-6 form-group">
+                            <textarea class="form-control" placeholder="Message" name="" id="" cols="30" rows="5"></textarea>
+                            <button type="button" class="btn btn-primary">Send Message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- contact section end -->
+        <!-- footer start -->
+        <footer>
+            <div class="container">
+                <div class="row text-white text-justify">
+                    <div class="col-lg-5">
+                        <h3>About Us</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                        <p>Copyright © 2022 All rights reserved | This template is made by <a href="https://www.linkedin.com/in/wungthing-kashungnao-1183951bb/" target="_blank">Wungthing</a></p>
+                    </div>
+                    <div class="col-lg-5">
+                        <h3>Newsletter</h3>
+                        <p>Stay update with our latest</p>
+                        <form action="">
+                            <input type="email" class="form-control" placeholder="Enter your email" name="">
+                            <button class="btn btn-primary">go</button>
+                        </form>
+                    </div>
+                    <div class="col-lg-2 follow">
+                        <h3>Follow Me</h3>
+                        <p>Let us be social</p>
+                        <p><a href="https://www.facebook.com/wungthing.kashungnao.1/" target="_blank"><i class="bi bi-facebook"></i></a>   <a href="https://www.instagram.com/wungthing_kashungnao/" target="_blank"><i class="bi bi-instagram"></i></a>  <a href="https://twitter.com/wungthing_kashu" target="_blank"><i class="bi bi-twitter"></i></a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer end -->
+    </body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+</html>
